@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .bdy{
+        background: blue;
+    }
+    .btntext{
+        height: 60px;
+        background: rebeccapurple;
+        display: flex;
+        /*align-content: center;*/
+        justify-content:center
+    }
+    .btn,.counttext{
+       margin-top:5px        
+       
+    }
+    .counttext{
+        border:2px solid lightcoral;
+        font-size: 35px;
+    }
+    .close{
+        margin-left: 44rem;
+        width: 25px;
+        margin-top: 0px;
+    }
+</style>
+<body class="bdy">
+    <div id="container">
+        
+    <form id="weekendform">
+            <div class="dvclose"> 
+        <p id="close" class="close"><a id="aclose" href="#">X</a></p>
+    </div>
+        <h1>Welcome to weekend Countdown!</h1>
+        <p>Please Enter Your Name:</p>
+        <div id="btntext" class="btntext">
+        <input type="text" id="counttext" class="counttext"></input>
+        <button id="btn" value="Go" class="btn">Ok</button>
+    </div>
+    </form>
+</div>
+    <script src="weekend.js"></script>
+</body>
+</html>
